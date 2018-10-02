@@ -4,7 +4,7 @@
 	@------------------
 	@	You are given a secret message at label 'text' that needs to be
 	@	decrypted according to the following rules.
-	@	Bytes 0 and 4 need to have the operation EOR 0x0b1010 applied
+	@	Bytes 0 and 4 need to have the operation EOR 0b1010 applied
 	@	to them and written back to memory at the original location
 	@	Bytes 1 and 5 need to ORR 0x40 applied to them
 	@	and written back to memory at the original location
