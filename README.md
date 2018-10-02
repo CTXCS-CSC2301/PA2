@@ -12,7 +12,7 @@ CSC2301, Programming Assignment 2
 
 2.  You are given code in PA2-2.s that sets up 8 bytes of data corresponding to a secret message.  That message is at a memory address labeled *text*.  You need to perform the following operations on the bytes of the message to transform them into characters to decrypt the message:
 
-    *   Bytes 0 and 4 need to have the operation `EOR 0x0b1010` applied to them and written back to memory at the original location
+    *   Bytes 0 and 4 need to have the operation `EOR 0b1010` applied to them and written back to memory at the original location
     *   Bytes 1 and 5 need to have the operation `ORR 0x40` applied to them and written back to memory at the original location
     *   Bytes 2 and 6 need to have the operation `AND 0x7F` applied to them and written back to memory at the original location
     *   Bytes 3 and 7 should remain unchanged.
