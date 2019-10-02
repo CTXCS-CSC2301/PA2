@@ -30,7 +30,7 @@ main:
 	POP	{PC}
 	
 .data
-text:	.byte 75,51,243,'e',103,34,0xEC,'y'		@ the secret message
+text:	.byte 75,51,243,'e',103,34,0xEC,'y',0		@ the secret message
 out:	.asciz "%s\n"
 	
 
